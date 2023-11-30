@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quick Darts</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Quick Darts">
+    <link rel="icon" type="image/png" href="darts/69717.png">
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/NavigationBar.css" rel="stylesheet" type="text/css" />
+    <link href="styles/DartsGPT.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/DartsGPT.js"></script>
+    <script src="scripts/Header.js" type="text/javascript" defer></script>
+    <script src="scripts/Footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <div class="container">
+      <h1>DartsGPT (Beta)</h1>
+      
+      <div class="chat-window" id="chatWindow">
+        <div class="bot-message">
+          <p>Hello! How can I assist you with darts today?</p>
+        </div>
+      </div>
+      
+      <div class="input-container">
+        <input type="text" id="userInput" placeholder="Type your message..." onkeydown="handleKeyPress(event)">
+      </div>
+    </div>
+    <footer-component></footer-component>
+  </body>
+</html>

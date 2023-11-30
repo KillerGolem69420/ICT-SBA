@@ -1,0 +1,36 @@
+html {
+    background-color: #fff6ef;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.section {
+    width: 50%;
+    height: 100%;
+}
+  
+video {
+    width: 100%;
+    height: 50%;
+    margin-top: 21.875%;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}

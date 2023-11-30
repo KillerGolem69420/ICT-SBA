@@ -1,0 +1,40 @@
+html {
+    background-color: #FFF6EF;
+}
+ 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.chat-window {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 400px;
+    overflow-y: scroll;
+}
+  
+.user-message {
+    margin-bottom: 10px;
+}
+  
+.bot-message {
+    margin-bottom: 10px;
+    text-align: right;
+}
+  
+.input-container {
+    margin-top: 20px;
+}
+  
+input[type="text"] {
+    width: 97.1%;
+    padding: 10px;
+    font-size: 16px;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
