@@ -34,3 +34,17 @@ a:hover {
 a:link, a:visited {
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
